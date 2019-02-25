@@ -64,7 +64,6 @@ plt.xticks(xtampung1,x1,rotation=90)
 plt.subplot(222)
 xtampung2=np.arange(0,len(x2))
 y2hasil=100-y2a
-print(y2hasil)
 plt.bar(xtampung2,y2hasil,color='green')
 plt.title('Campak')
 plt.xticks(xtampung2,x2,rotation=90)
